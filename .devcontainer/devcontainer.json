@@ -18,8 +18,7 @@
 				"bmewburn.vscode-intelephense-client",
 				"calebporzio.better-phpunit",
 				"neilbrayfield.php-docblocker",
-				"MehediDracula.php-namespace-resolver",
-				"GitHub.copilot"
+				"MehediDracula.php-namespace-resolver"
 			]
 		}
 	}

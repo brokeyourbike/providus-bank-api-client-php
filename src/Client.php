@@ -10,11 +10,11 @@ namespace BrokeYourBike\ProvidusBank;
 
 use Psr\Http\Message\ResponseInterface;
 use GuzzleHttp\ClientInterface;
+use BrokeYourBike\ResolveUri\ResolveUriTrait;
 use BrokeYourBike\ProvidusBank\Models\TransactionResponse;
 use BrokeYourBike\ProvidusBank\Models\AccountResponse;
 use BrokeYourBike\ProvidusBank\Interfaces\TransactionInterface;
 use BrokeYourBike\ProvidusBank\Interfaces\ConfigInterface;
-use BrokeYourBike\ResolveUri\ResolveUriTrait;
 use BrokeYourBike\HttpEnums\HttpMethodEnum;
 use BrokeYourBike\HttpClient\HttpClientTrait;
 use BrokeYourBike\HttpClient\HttpClientInterface;
@@ -41,6 +41,15 @@ class Client implements HttpClientInterface
     public function getConfig(): ConfigInterface
     {
         return $this->config;
+    }
+
+    public function canFetchAccount(): bool
+    {
+        $response = $this->performRequest(HttpMethodEnum::OPTIONS, 'GetProvidusAccount', []);
+        if ($response->getStatusCode() === 200) {
+            return true;
+        }
+        return false;
     }
 
     public function fetchAccount(string $accountNumber): AccountResponse
