@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://www.github.com/brokeyourbike/providus-bank-api-client-php/compare/v0.1.1...v0.2.0) (2023-06-29)
+
+
+### Features
+
+* can fetch ([d52cb2d](https://www.github.com/brokeyourbike/providus-bank-api-client-php/commit/d52cb2df9ece477d84cdd186f134f1a213e8dd7e))
+
 ### [0.1.1](https://www.github.com/brokeyourbike/providus-bank-api-client-php/compare/v0.1.0...v0.1.1) (2023-05-20)
 
 
