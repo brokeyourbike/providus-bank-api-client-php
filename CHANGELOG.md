@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.0](https://www.github.com/brokeyourbike/providus-bank-api-client-php/compare/v0.2.0...v0.3.0) (2023-08-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* use ping as method
+
+### Bug Fixes
+
+* rename foldder ([ff47f13](https://www.github.com/brokeyourbike/providus-bank-api-client-php/commit/ff47f13e789e2246beb889a0fdfbfbcecadcf88d))
+* use ping as method ([7ec6f6a](https://www.github.com/brokeyourbike/providus-bank-api-client-php/commit/7ec6f6a7a73d9dd7cb7ccc17351a7a34246280c1))
+
 ## [0.2.0](https://www.github.com/brokeyourbike/providus-bank-api-client-php/compare/v0.1.1...v0.2.0) (2023-06-29)
 
 
