@@ -43,7 +43,7 @@ class Client implements HttpClientInterface
         return $this->config;
     }
 
-    public function canFetchAccount(): bool
+    public function ping(): bool
     {
         $response = $this->performRequest(HttpMethodEnum::OPTIONS, 'GetProvidusAccount', []);
         if ($response->getStatusCode() === 200) {

@@ -70,7 +70,7 @@ class FetchAccountTest extends TestCase
     }
 
     /** @test */
-    public function it_can_fetch_account(): void
+    public function it_can_ping(): void
     {
         $mockedConfig = $this->getMockBuilder(ConfigInterface::class)->getMock();
         $mockedConfig->method('getUrl')->willReturn('https://api.example/');
@@ -96,7 +96,7 @@ class FetchAccountTest extends TestCase
          * */
         $api = new Client($mockedConfig, $mockedClient);
 
-        $requestResult = $api->canFetchAccount();
+        $requestResult = $api->ping();
         $this->assertTrue($requestResult);
     }
 }
