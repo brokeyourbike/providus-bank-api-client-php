@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.1](https://www.github.com/brokeyourbike/providus-bank-api-client-php/compare/v0.2.0...v0.2.1) (2023-08-28)
+
+
+### Bug Fixes
+
+* rename foldder ([ff47f13](https://www.github.com/brokeyourbike/providus-bank-api-client-php/commit/ff47f13e789e2246beb889a0fdfbfbcecadcf88d))
+
 ## [0.2.0](https://www.github.com/brokeyourbike/providus-bank-api-client-php/compare/v0.1.1...v0.2.0) (2023-06-29)
 
 
