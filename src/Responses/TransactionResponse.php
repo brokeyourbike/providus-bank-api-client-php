@@ -6,19 +6,19 @@
 // License, v. 2.0. If a copy of the MPL was not distributed with this file,
 // You can obtain one at https://mozilla.org/MPL/2.0/.
 
-namespace BrokeYourBike\ProvidusBank\Models;
+namespace BrokeYourBike\ProvidusBank\Responses;
 
 use BrokeYourBike\DataTransferObject\JsonResponse;
 
 /**
  * @author Ivan Stasiuk <ivan@stasi.uk>
  */
-class AccountResponse extends JsonResponse
+class TransactionResponse extends JsonResponse
 {
     public string $responseCode;
     public string $responseMessage;
-    public ?string $accountStatus;
-    public ?string $accountName;
-    public ?string $accountNumber;
-    public ?float $availableBalance;
+    public ?string $amount;
+    public ?string $currency;
+    public ?string $transactionReference;
 }
+
