@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.3.1](https://www.github.com/brokeyourbike/providus-bank-api-client-php/compare/v0.3.0...v0.3.1) (2023-11-27)
+
+
+### Bug Fixes
+
+* remode dead code ([c3b27e1](https://www.github.com/brokeyourbike/providus-bank-api-client-php/commit/c3b27e1c7a8abffc9cecd29f31bad90eba77d828))
+
 ## [0.3.0](https://www.github.com/brokeyourbike/providus-bank-api-client-php/compare/v0.2.0...v0.3.0) (2023-08-28)
 
 
