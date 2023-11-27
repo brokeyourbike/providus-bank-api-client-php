@@ -27,7 +27,9 @@ $apiClient->fetchAccount('12345');
 ```
 
 ## Authors
+
 - [Ivan Stasiuk](https://github.com/brokeyourbike) | [Twitter](https://twitter.com/brokeyourbike) | [LinkedIn](https://www.linkedin.com/in/brokeyourbike) | [stasi.uk](https://stasi.uk)
 
 ## License
+
 [Mozilla Public License v2.0](https://github.com/brokeyourbike/providus-bank-api-client-php/blob/main/LICENSE)

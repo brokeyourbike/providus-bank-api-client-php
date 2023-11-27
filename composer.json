@@ -5,7 +5,8 @@
         "api",
         "api-client",
         "providus-bank",
-        "brokeyourbike"
+        "brokeyourbike",
+        "rest-api"
     ],
     "type": "library",
     "license": "MPL-2.0",
