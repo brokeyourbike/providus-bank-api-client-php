@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.4.0](https://www.github.com/brokeyourbike/providus-bank-api-client-php/compare/v0.3.1...v0.4.0) (2025-01-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* credit/debit
+
+### Bug Fixes
+
+* credit/debit ([57ddfcb](https://www.github.com/brokeyourbike/providus-bank-api-client-php/commit/57ddfcb6f6afa5ca4eb732075673007098d0e8cb))
+
 ### [0.3.1](https://www.github.com/brokeyourbike/providus-bank-api-client-php/compare/v0.3.0...v0.3.1) (2023-11-27)
 
 
