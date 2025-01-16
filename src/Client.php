@@ -57,8 +57,8 @@ class Client implements HttpClientInterface
 
         $response = $this->performRequest(HttpMethodEnum::POST, 'ProvidusFundTransfer', [
             'transactionReference' => $transaction->getReference(),
-            'creditAccount' => $this->config->getSourceAccountNumber(),
-            'debitAccount' => $transaction->getBankAccount(),
+            'creditAccount' => $transaction->getBankAccount(),
+            'debitAccount' => $this->config->getSourceAccountNumber(),
             'currencyCode' => $transaction->getCurrencyCode(),
             'transactionAmount' => $transaction->getAmount(),
             'narration' => $transaction->getDescription(),
