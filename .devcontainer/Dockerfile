@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/php:0-8.1
+FROM mcr.microsoft.com/vscode/devcontainers/php:8.2
 
 RUN apt-get update && apt-get install -y \
     libzip-dev \

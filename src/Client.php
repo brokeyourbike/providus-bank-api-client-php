@@ -51,10 +51,6 @@ class Client implements HttpClientInterface
 
     public function domesticTransfer(TransactionInterface $transaction): TransactionResponse
     {
-        if ($transaction instanceof SourceModelInterface){
-            $this->setSourceModel($transaction);
-        }
-
         $response = $this->performRequest(HttpMethodEnum::POST, 'ProvidusFundTransfer', [
             'transactionReference' => $transaction->getReference(),
             'creditAccount' => $transaction->getBankAccount(),
@@ -69,10 +65,6 @@ class Client implements HttpClientInterface
 
     public function transfer(TransactionInterface $transaction): TransactionResponse
     {
-        if ($transaction instanceof SourceModelInterface){
-            $this->setSourceModel($transaction);
-        }
-
         $response = $this->performRequest(HttpMethodEnum::POST, 'NIPFundTransfer', [
             'transactionReference' => $transaction->getReference(),
             'narration' => $transaction->getDescription(),
